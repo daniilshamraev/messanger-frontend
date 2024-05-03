@@ -9,154 +9,153 @@ function App() {
 
   const wallet = useTonWallet();
 
-  // const chats = [
-  //   {
-  //     address: 'UQBJvYWAAiW7eWDAZgATVljcAkKT8Jo4bFe3Xh2v2EPperPd',
-  //     master_contacrt_address: 'EQdece0i3rjc...3cd3exdom',
-  //     messages: [
-  //       {
-  //         address: 'EQdece0i3rjc...3cd3exdom',
-  //         text: 'Hi, how are you?',
-  //         content: undefined,
-  //         time: '10:00',
-  //         read: false
-  //       }
-  //     ]
-  //   },
-  //   {
-  //     address: 'UQBJvYWAAiW7eWDAZgATVljcAkKT8Jo4bFe3Xh2v2EPperPd',
-  //     master_contacrt_address: 'EQdece0i3rjc...3cd3exdom',
-  //     messages: [
-  //       {
-  //         address: 'EQdece0i3rjc...3cd3exdom',
-  //         text: 'Hi, how are you?',
-  //         content: undefined,
-  //         time: '10:00',
-  //         read: false
-  //       }
-  //     ]
-  //   },
-  //   {
-  //     address: 'UQBJvYWAAiW7eWDAZgATVljcAkKT8Jo4bFe3Xh2v2EPperPd',
-  //     master_contacrt_address: 'EQdece0i3rjc...3cd3exdom',
-  //     messages: [
-  //       {
-  //         address: 'EQdece0i3rjc...3cd3exdom',
-  //         text: 'Hi, how are you?',
-  //         content: undefined,
-  //         time: '10:00',
-  //         read: false
-  //       }
-  //     ]
-  //   },
-  //   {
-  //     address: 'UQBJvYWAAiW7eWDAZgATVljcAkKT8Jo4bFe3Xh2v2EPperPd',
-  //     master_contacrt_address: 'EQdece0i3rjc...3cd3exdom',
-  //     messages: [
-  //       {
-  //         address: 'EQdece0i3rjc...3cd3exdom',
-  //         text: 'Hi, how are you?',
-  //         content: undefined,
-  //         time: '10:00',
-  //         read: false
-  //       }
-  //     ]
-  //   },
-  //   {
-  //     address: 'UQBJvYWAAiW7eWDAZgATVljcAkKT8Jo4bFe3Xh2v2EPperPd',
-  //     master_contacrt_address: 'EQdece0i3rjc...3cd3exdom',
-  //     messages: [
-  //       {
-  //         address: 'EQdece0i3rjc...3cd3exdom',
-  //         text: 'Hi, how are you?',
-  //         content: undefined,
-  //         time: '10:00',
-  //         read: false
-  //       }
-  //     ]
-  //   },
-  //   {
-  //     address: 'UQBJvYWAAiW7eWDAZgATVljcAkKT8Jo4bFe3Xh2v2EPperPd',
-  //     master_contacrt_address: 'EQdece0i3rjc...3cd3exdom',
-  //     messages: [
-  //       {
-  //         address: 'EQdece0i3rjc...3cd3exdom',
-  //         text: 'Hi, how are you?',
-  //         content: undefined,
-  //         time: '10:00',
-  //         read: false
-  //       }
-  //     ]
-  //   },
-  //   {
-  //     address: 'UQBJvYWAAiW7eWDAZgATVljcAkKT8Jo4bFe3Xh2v2EPperPd',
-  //     master_contacrt_address: 'EQdece0i3rjc...3cd3exdom',
-  //     messages: [
-  //       {
-  //         address: 'EQdece0i3rjc...3cd3exdom',
-  //         text: 'Hi, how are you?',
-  //         content: undefined,
-  //         time: '10:00',
-  //         read: false
-  //       }
-  //     ]
-  //   },
-  //   {
-  //     address: 'UQBJvYWAAiW7eWDAZgATVljcAkKT8Jo4bFe3Xh2v2EPperPd',
-  //     master_contacrt_address: 'EQdece0i3rjc...3cd3exdom',
-  //     messages: [
-  //       {
-  //         address: 'EQdece0i3rjc...3cd3exdom',
-  //         text: 'Hi, how are you?',
-  //         content: undefined,
-  //         time: '10:00',
-  //         read: false
-  //       }
-  //     ]
-  //   },
-  //   {
-  //     address: 'UQBJvYWAAiW7eWDAZgATVljcAkKT8Jo4bFe3Xh2v2EPperPd',
-  //     master_contacrt_address: 'EQdece0i3rjc...3cd3exdom',
-  //     messages: [
-  //       {
-  //         address: 'EQdece0i3rjc...3cd3exdom',
-  //         text: 'Hi, how are you?',
-  //         content: undefined,
-  //         time: '10:00',
-  //         read: false
-  //       }
-  //     ]
-  //   },
-  //   {
-  //     address: 'UQBJvYWAAiW7eWDAZgATVljcAkKT8Jo4bFe3Xh2v2EPperPd',
-  //     master_contacrt_address: 'EQdece0i3rjc...3cd3exdom',
-  //     messages: [
-  //       {
-  //         address: 'EQdece0i3rjc...3cd3exdom',
-  //         text: 'Hi, how are you?',
-  //         content: undefined,
-  //         time: '10:00',
-  //         read: false
-  //       }
-  //     ]
-  //   },
-  //   {
-  //     address: 'UQBJvYWAAiW7eWDAZgATVljcAkKT8Jo4bFe3Xh2v2EPperPd',
-  //     master_contacrt_address: 'EQdece0i3rjc...3cd3exdom',
-  //     messages: [
-  //       {
-  //         address: 'EQdece0i3rjc...3cd3exdom',
-  //         text: 'Hi, how are you?',
-  //         content: undefined,
-  //         time: '10:00',
-  //         read: false
-  //       }
-  //     ]
-  //   },
+  const chats = [
+    {
+      address: 'UQBJvYWAAiW7eWDAZgATVljcAkKT8Jo4bFe3Xh2v2EPperPd',
+      master_contacrt_address: 'EQdece0i3rjc...3cd3exdom',
+      messages: [
+        {
+          address: 'EQdece0i3rjc...3cd3exdom',
+          text: 'Hi, how are you?',
+          content: undefined,
+          time: '10:00',
+          read: false
+        }
+      ]
+    },
+    {
+      address: 'UQBJvYWAAiW7eWDAZgATVljcAkKT8Jo4bFe3Xh2v2EPperPd',
+      master_contacrt_address: 'EQdece0i3rjc...3cd3exdom',
+      messages: [
+        {
+          address: 'EQdece0i3rjc...3cd3exdom',
+          text: 'Hi, how are you?',
+          content: undefined,
+          time: '10:00',
+          read: false
+        }
+      ]
+    },
+    {
+      address: 'UQBJvYWAAiW7eWDAZgATVljcAkKT8Jo4bFe3Xh2v2EPperPd',
+      master_contacrt_address: 'EQdece0i3rjc...3cd3exdom',
+      messages: [
+        {
+          address: 'EQdece0i3rjc...3cd3exdom',
+          text: 'Hi, how are you?',
+          content: undefined,
+          time: '10:00',
+          read: false
+        }
+      ]
+    },
+    {
+      address: 'UQBJvYWAAiW7eWDAZgATVljcAkKT8Jo4bFe3Xh2v2EPperPd',
+      master_contacrt_address: 'EQdece0i3rjc...3cd3exdom',
+      messages: [
+        {
+          address: 'EQdece0i3rjc...3cd3exdom',
+          text: 'Hi, how are you?',
+          content: undefined,
+          time: '10:00',
+          read: false
+        }
+      ]
+    },
+    {
+      address: 'UQBJvYWAAiW7eWDAZgATVljcAkKT8Jo4bFe3Xh2v2EPperPd',
+      master_contacrt_address: 'EQdece0i3rjc...3cd3exdom',
+      messages: [
+        {
+          address: 'EQdece0i3rjc...3cd3exdom',
+          text: 'Hi, how are you?',
+          content: undefined,
+          time: '10:00',
+          read: false
+        }
+      ]
+    },
+    {
+      address: 'UQBJvYWAAiW7eWDAZgATVljcAkKT8Jo4bFe3Xh2v2EPperPd',
+      master_contacrt_address: 'EQdece0i3rjc...3cd3exdom',
+      messages: [
+        {
+          address: 'EQdece0i3rjc...3cd3exdom',
+          text: 'Hi, how are you?',
+          content: undefined,
+          time: '10:00',
+          read: false
+        }
+      ]
+    },
+    {
+      address: 'UQBJvYWAAiW7eWDAZgATVljcAkKT8Jo4bFe3Xh2v2EPperPd',
+      master_contacrt_address: 'EQdece0i3rjc...3cd3exdom',
+      messages: [
+        {
+          address: 'EQdece0i3rjc...3cd3exdom',
+          text: 'Hi, how are you?',
+          content: undefined,
+          time: '10:00',
+          read: false
+        }
+      ]
+    },
+    {
+      address: 'UQBJvYWAAiW7eWDAZgATVljcAkKT8Jo4bFe3Xh2v2EPperPd',
+      master_contacrt_address: 'EQdece0i3rjc...3cd3exdom',
+      messages: [
+        {
+          address: 'EQdece0i3rjc...3cd3exdom',
+          text: 'Hi, how are you?',
+          content: undefined,
+          time: '10:00',
+          read: false
+        }
+      ]
+    },
+    {
+      address: 'UQBJvYWAAiW7eWDAZgATVljcAkKT8Jo4bFe3Xh2v2EPperPd',
+      master_contacrt_address: 'EQdece0i3rjc...3cd3exdom',
+      messages: [
+        {
+          address: 'EQdece0i3rjc...3cd3exdom',
+          text: 'Hi, how are you?',
+          content: undefined,
+          time: '10:00',
+          read: false
+        }
+      ]
+    },
+    {
+      address: 'UQBJvYWAAiW7eWDAZgATVljcAkKT8Jo4bFe3Xh2v2EPperPd',
+      master_contacrt_address: 'EQdece0i3rjc...3cd3exdom',
+      messages: [
+        {
+          address: 'EQdece0i3rjc...3cd3exdom',
+          text: 'Hi, how are you?',
+          content: undefined,
+          time: '10:00',
+          read: false
+        }
+      ]
+    },
+    {
+      address: 'UQBJvYWAAiW7eWDAZgATVljcAkKT8Jo4bFe3Xh2v2EPperPd',
+      master_contacrt_address: 'EQdece0i3rjc...3cd3exdom',
+      messages: [
+        {
+          address: 'EQdece0i3rjc...3cd3exdom',
+          text: 'Hi, how are you?',
+          content: undefined,
+          time: '10:00',
+          read: false
+        }
+      ]
+    },
     
-  // ];
+  ];
 
-  const chats = [];
   return (
     <>
       {wallet &&
