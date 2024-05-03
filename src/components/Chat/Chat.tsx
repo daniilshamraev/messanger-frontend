@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import './chat.css';
 import ChatElement from '../ChatElement/ChatElement';
 import NewChatButton from '../NewChatButton/NewChatButton';

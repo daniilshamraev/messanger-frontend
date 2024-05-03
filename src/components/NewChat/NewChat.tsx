@@ -8,7 +8,7 @@ interface NewChatProps { }
 
 const NewChat: FC<NewChatProps> = () => {
 
-  const [password, setPassword] = useState(localStorage.getItem('password') || '');
+  const [password, ] = useState(localStorage.getItem('password') || '');
 
   return (
     <div className={styles.NewChat}>
