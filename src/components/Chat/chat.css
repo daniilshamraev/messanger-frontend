@@ -1,0 +1,22 @@
+.chat {
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    /* justify-content: space-around; */
+    min-height: 30vh;
+}
+
+h3 {
+    margin-top: 0;
+    font-size: 1em;
+    margin-bottom: 0;
+}
+
+.no_chats {
+    margin-top: 1em;
+    color: #777;
+    font-size: 1.8em;
+}

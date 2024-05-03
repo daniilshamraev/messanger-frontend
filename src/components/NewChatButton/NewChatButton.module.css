@@ -1,0 +1,15 @@
+.NewChatButton {
+    background: #131313;
+    color: #fff;
+    padding: 0.5em 1em;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+    margin-top: 2.5em;
+}
+
+.NewChatButton:hover {
+    background: #000;
+    transition: all .4s ease-in-out;
+    scale: 1.03;
+}
